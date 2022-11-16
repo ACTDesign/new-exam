@@ -1,0 +1,34 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(120, 196, 120);
+}
+body{
+    background-color: green;
+}
+#game{
+    background: #000300;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid whitesmoke;
+}
+.highscore{
+position: absolute;
+top: 1.5rem;
+width: 80%;
+left: 10%;
+text-align: center;
+}
+.reset-game{
+    cursor: pointer; 
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
